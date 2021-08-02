@@ -61,4 +61,8 @@ dependencies {
     //AppEngine
     compileOnly("com.google.appengine:appengine:+")
     compileOnly("javax.servlet:javax.servlet-api:3.1.0")
+
+    //JWT
+    implementation("io.ktor:ktor-auth:$ktor_version")
+    implementation("io.ktor:ktor-auth-jwt:$ktor_version")
 }
